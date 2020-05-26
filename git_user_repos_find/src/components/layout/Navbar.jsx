@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {NavbarContainer} from './navbar.style'
 
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ icon, title }) => {
     return (
@@ -10,14 +10,14 @@ const Navbar = ({ icon, title }) => {
             <h1>
                 <i className={icon} /> {title}
             </h1>
-            {/* <ul>
-                <li>
+            <ul>
+                {/* <li>
                     <Link to='/'>Home</link>
-                </li>
+                </li> */}
                 <li>
                     <Link to='/about'>About</Link>
                 </li>
-            </ul> */}
+            </ul>
         </NavbarContainer>
     );
 };

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const NavbarContainer = styled.div`
     display: flex;
@@ -11,4 +12,5 @@ export const NavbarContainer = styled.div`
     margin-bottom: 1rem;
     background: green;
     color: #fff;
+    margin-right: 0.6rem;
 `;
